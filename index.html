@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution, body{ overflow:auto;font-size: 13px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="">
+    <div class="mySlides">
+      <div class="w3-row w3-mobile">
+      <div class="w3-twothird w3-display-container" >
+        <img src="desktop-image-hero-1.jpg" alt="" width="100%" />
+
+    <div class="w3-display-bottomright w3-hide-large w3-hide-medium">
+    <p><button class="w3-button w3-black " onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black " onclick="plusDivs(1)">&#10095;</button></p>
+  
+  </div>
+  
+    <div class="w3-bar w3-text-white  w3-display-topleft">
+      <img class="w3-bar-item w3-hide-small" src="logo.svg" alt="" width="100%" />
+       <img class="w3-bar-item  w3-display-topmiddle w3-hide-medium w3-hide-large" src="logo.svg" alt="" width="100%" />
+      <a class="w3-bar-item w3-bottombar w3-border-white w3-button w3-hide-small" href="">Home</a>
+       <a class="w3-bar-item w3-hide-small w3-button" href="">Shop</a>
+        <a class="w3-bar-item w3-hide-small w3-button" href="#about">About</a>
+         <a class="w3-bar-item w3-hide-small w3-button " href="">Contact</a>
+        <button class="w3-button w3-text-white w3-hide-large w3-hide-medium w3-left w3-xlarge" onclick="w3_open()">&#9776;</button>
+</div>
+
+</div>
+ <div class="w3-sidebar w3-hide-large w3-hide-medium w3-text-black w3-wide w3-bar" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-large"> &times;</button>
+  <a class="w3-bar-item w3-padding w3-button" href="#">Home</a>
+  <a class="w3-bar-item w3-padding w3-button" href="#">Shop</a>
+  <a class="w3-bar-item w3-padding w3-button" href="#">About</a>
+   <a class="w3-bar-item w3-padding w3-button" href="#">Contact</a>
+</div>
+    <div class="w3-third w3-container">
+       
+<h2> Discover innovative ways to decorate</h2>
+
+  <p>We provide unmatched quality, comfort, and style for property owners across the country. 
+  Our experts combine form and function in bringing your vision to life. Create a room in your 
+  own style with our collection and make your property a reflection of you and what you love.</P>
+
+  <h3 class="w3-left w3-hover-opacity" style="letter-spacing:4px;">Shop now <img src="icon-arrow.svg" alt="" /></h3>
+  <div class="w3-display-container w3-hide-small" style="height:100px;">
+    <div class="w3-display-bottomleft">
+    <p><button class="w3-button w3-black " onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black " onclick="plusDivs(1)">&#10095;</button></p>
+  </div>
+  </div>
+    </div>
+    </div>
+    </div>
+    </div>
+     <div class="mySlides">
+       <div class="w3-row w3-mobile">
+      <div class="w3-twothird w3-display-container" >
+      
+<img  src="desktop-image-hero-2.jpg" style="width:100%">
+    <div class="w3-display-bottomright w3-hide-large w3-hide-medium">
+    <p><button class="w3-button w3-black " onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black " onclick="plusDivs(1)">&#10095;</button></p>
+  
+  </div>
+    <div class="w3-bar w3-text-white w3-display-topleft">
+      <img class="w3-bar-item w3-hide-small" src="logo.svg" alt="" width="100%" />
+      <img class="w3-bar-item  w3-display-topmiddle w3-hide-medium w3-hide-large" src="logo.svg" alt="" width="100%" />
+      <a class="w3-bar-item  w3-hide-small w3-button " href="">Home</a>
+       <a class="w3-bar-item  w3-hide-small w3-bottombar w3-border-white  w3-button" href="">Shop</a>
+        <a class="w3-bar-item w3-hide-small w3-button" href="#about">About</a>
+         <a class="w3-bar-item  w3-hide-small w3-button " href="">Contact</a>
+       <button class="w3-button w3-text-white w3-hide-large w3-hide-medium w3-left w3-xlarge" onclick="w3_ope()">&#9776;</button>
+         </div>
+    </div>
+    <div class="w3-sidebar w3-hide-large w3-hide-medium w3-text-black w3-wide w3-bar" style="display:none" id="mySideba">
+  <button onclick="w3_clos()" class="w3-bar-item w3-button w3-padding w3-large"> &times;</button>
+  <a class="w3-bar-item w3-padding w3-button" href="#">Home</a>
+  <a class="w3-bar-item w3-padding w3-button" href="#">Shop</a>
+  <a class="w3-bar-item w3-padding w3-button" href="#">About</a>
+   <a class="w3-bar-item w3-padding w3-button" href="#">Contact</a>
+</div>
+     <div class="w3-third w3-container">
+       
+<h2>Manufactured with the best materials</h2>
+
+  <p>Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+  to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+  experience in this industry, we understand what customers want for their home and office..</P>
+
+  <h3 class="w3-left w3-hover-opacity" style="letter-spacing:4px;">Shop now <img src="icon-arrow.svg" alt="" /></h3>
+  <div class="w3-display-container w3-hide-small" style="height:100px;">
+    <div class="w3-display-bottomleft">
+    <p><button class="w3-button w3-black " onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black " onclick="plusDivs(1)">&#10095;</button></p>
+  </div>
+  </div>  
+  </div>
+    </div>
+    </div>
+    </div>
+     <div class="mySlides">
+       <div class="w3-row w3-mobile">
+      <div class="w3-twothird w3-display-container" >
+       
+<img src="desktop-image-hero-3.jpg" style="width:100%"> 
+
+    <div class="w3-display-bottomright w3-hide-large w3-hide-medium">
+    <p><button class="w3-button w3-black " onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black " onclick="plusDivs(1)">&#10095;</button></p>
+  
+  </div> 
+  <div class="w3-bar w3-text-white w3-display-topleft">
+      <img class="w3-bar-item w3-hide-small" src="logo.svg" alt="" width="100%" />
+       <img class="w3-bar-item  w3-display-topmiddle w3-hide-medium w3-hide-large" src="logo.svg" alt="" width="100%" />
+      <a class="w3-bar-item w3-hide-small w3-border-white w3-button " href="">Home</a>
+       <a class="w3-bar-item w3-hide-small w3-button" href="">Shop</a>
+        <a class="w3-bar-item w3-hide-small w3-button" href="#about">About</a>
+         <a class="w3-bar-item w3-hide-small w3-bottombar w3-border-white w3-button " href="">Contact</a>
+        <button class="w3-button w3-text-white w3-hide-large w3-hide-medium w3-left w3-xlarge" onclick="w3_op()">&#9776;</button>
+         </div>
+    </div>
+    <div class="w3-sidebar w3-hide-large w3-hide-medium w3-text-black w3-wide w3-bar" style="display:none" id="mySideb">
+  <button onclick="w3_clo()" class="w3-bar-item w3-button w3-padding w3-large"> &times;</button>
+  <a class="w3-bar-item w3-padding w3-button" href="#">Home</a>
+  <a class="w3-bar-item w3-padding w3-button" href="#">Shop</a>
+  <a class="w3-bar-item w3-padding w3-button" href="#">About</a>
+   <a class="w3-bar-item w3-padding w3-button" href="#">Contact</a>
+</div>
+    <div id="about" class="w3-third w3-container">
+       
+<h2> We are available all across the globe</h2>
+
+  <p>WWith stores all over the world, it's easy for you to find furniture for your home or place of business. 
+  Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+  store locator. Any questions? Don't hesitate to contact us today.</P>
+
+  <h3 class="w3-left w3-hover-opacity" style="letter-spacing:4px;">Shop now <img src="icon-arrow.svg" alt="" /></h3>
+  <div class="w3-display-container w3-hide-small" style="height:100px;">
+    <div class="w3-display-bottomleft">
+    <p><button class="w3-button w3-black " onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black " onclick="plusDivs(1)">&#10095;</button></p>
+  </div>
+  </div> 
+  </div>
+    </div>
+    </div>
+    </div>
+    <div class="w3-row ">
+      <div class="w3-third">
+        <img class="w3-image" src="image-about-dark.jpg" alt="" width="100%"/>
+      </div>
+    <div class="w3-third" >
+      <h3 class="">About our furniture</h3>
+      <p class="">Our multifunctional collection blends design and function to suit your individual taste.
+  Make each room unique, or pick a cohesive theme that best express your interests and what
+  inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+  or anything in between. Product specialists are available to help you create your dream space.
+  </p>
+    </div>
+    <div class="w3-third">
+      <img class="w3-image" src="image-about-light.jpg" alt="" width="100%"/>
+    </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="w3-text-orange" href="#">jamal</a>.
+  </div>
+  <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+function w3_open() {
+    document.getElementById("mySidebar").style.height = "10%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_clos() {
+    document.getElementById("mySideba").style.display = "none";
+}
+function w3_ope() {
+    document.getElementById("mySideba").style.height = "10%";
+    document.getElementById("mySideba").style.display = "block";
+}
+function w3_clos() {
+    document.getElementById("mySideba").style.display = "none";
+}
+function w3_op() {
+    document.getElementById("mySideb").style.height = "10%";
+    document.getElementById("mySideb").style.display = "block";
+}
+function w3_clo() {
+    document.getElementById("mySideb").style.display = "none";
+}
+</script>
+</body>
+</html>
